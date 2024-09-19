@@ -1,9 +1,9 @@
-*/
+
 
 --Consider system database "master" as current database
 use master
 --Create database
-create database db_7pm
+create database db_7pm;
 --Consider db_7pm as current database
 use db_7pm
 --Create schema under db_7pm
@@ -60,12 +60,12 @@ select did, sum(esal),avg(esal) from hr.emp
 group by did
 --Display dept 10 rows only
 select * from hr.emp 
-where did=10
+where did=10;
 
 --Display dept 20 rows only
 select * from hr.emp 
-where did=20
+where did=20;
 
 --Display dept 30 rows only
 select * from hr.emp 
-where did=30
+where did=30;
